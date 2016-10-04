@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D68FE2D8-3E66-4819-8834-EF3CD5BC2A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAA7DB36-A14E-4D10-9E42-794BC6589B91}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "8TracksApi", "src\8TracksApi\8TracksApi.xproj", "{BF31F348-6113-46DA-848C-F64D6F5DB536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF31F348-6113-46DA-848C-F64D6F5DB536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF31F348-6113-46DA-848C-F64D6F5DB536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF31F348-6113-46DA-848C-F64D6F5DB536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF31F348-6113-46DA-848C-F64D6F5DB536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF31F348-6113-46DA-848C-F64D6F5DB536} = {D68FE2D8-3E66-4819-8834-EF3CD5BC2A3B}
+	EndGlobalSection
+EndGlobal
